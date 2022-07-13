@@ -1,0 +1,60 @@
+body {
+    background-color: #0f1217;
+}
+
+h1 {
+    color: #fcc920;
+    text-align: center;
+}
+
+p {
+    color: #777;
+}
+
+input {
+    background-color: transparent;
+    border: 0.2rem solid #fcc22f;
+    cursor: text;
+    width: 91%;
+}
+
+button {
+    border: 0;
+    left: 0.5vw;
+    padding: 1em;
+    margin-top: 2rem;
+}
+
+form {
+    left: 40vw;
+    position: absolute;
+    top: 28vh;
+    width: 20vw;
+}
+
+body,
+button {
+    font-family: 'SF Pro Display', 'Arial', sans-serif;
+}
+
+input,
+select {
+    border-radius: 0.4rem;
+    outline: none;
+    padding: 0.5em;
+}
+
+select,
+button {
+    background-color: #272d38;
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+select,
+button,
+input {
+    color: #fff;
+    font-size: 1.2em;
+}
